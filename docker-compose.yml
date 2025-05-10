@@ -1,0 +1,30 @@
+services:
+  zookeeper:
+    image: zookeeper:3.8
+    container_name: medicalsearchengine-zookeeper-1
+    ports:
+      - "2181:2181"
+    environment:
+      - ZOO_CLIENT_PORT=2181
+      - ZOO_4LW_COMMANDS_WHITELIST=mntr,conf,ruok
+    
+    volumes:
+        - ./zk-data:/data                     # ← persist ZK snapshots here
+
+  solr1:
+    image: solr:8.11.4
+    container_name: medicalsearchengine-solr1-1
+    ports:
+      - "8983:8983"
+    volumes:
+      - ./solr1_data:/var/solr
+    command: solr-foreground -c -z zookeeper:2181
+
+  solr2:
+    image: solr:8.11.4
+    container_name: medicalsearchengine-solr2-1
+    ports:
+      - "8984:8983"
+    volumes:
+      - ./solr2_data:/var/solr
+    command: solr-foreground -c -z zookeeper:2181

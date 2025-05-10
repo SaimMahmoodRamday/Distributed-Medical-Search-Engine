@@ -1,0 +1,128 @@
+2025-04-22 13:45:14.569 INFO  (main) [   ] o.e.j.u.log Logging initialized @7184ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-04-22 13:45:15.317 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.53.v20231009; built: 2023-10-09T12:29:09.265Z; git: 27bde00a0b95a1d5bbee0eae7984f891d2d0f8c9; jvm 11.0.26+4
+2025-04-22 13:45:15.414 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///opt/solr-8.11.4/server/contexts/] at interval 0
+2025-04-22 13:45:16.458 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2025-04-22 13:45:16.513 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2025-04-22 13:45:16.513 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2025-04-22 13:45:16.517 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2025-04-22 13:45:16.994 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2025-04-22 13:45:17.038 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.4
+2025-04-22 13:45:17.051 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 8983
+2025-04-22 13:45:17.051 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /opt/solr
+2025-04-22 13:45:17.052 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2025-04-22T13:45:17.052872Z
+2025-04-22 13:45:17.359 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /var/solr/data
+2025-04-22 13:45:18.125 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2025-04-22 13:45:18.362 INFO  (zkConnectionManagerCallback-2-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2025-04-22 13:45:18.362 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2025-04-22 13:45:18.497 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Loading solr.xml from SolrHome (not found in ZooKeeper)
+2025-04-22 13:45:18.508 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /var/solr/data/solr.xml
+2025-04-22 13:45:19.196 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@4bdeaabb, but no JMX reporters were configured - adding default JMX reporter.
+2025-04-22 13:45:20.740 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2025-04-22 13:45:21.133 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@4b3fe06e[provider=null,keyStore=null,trustStore=null]
+2025-04-22 13:45:21.134 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@4b3fe06e[provider=null,keyStore=null,trustStore=null]
+2025-04-22 13:45:21.993 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@70228253[provider=null,keyStore=null,trustStore=null]
+2025-04-22 13:45:21.994 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@70228253[provider=null,keyStore=null,trustStore=null]
+2025-04-22 13:45:22.086 INFO  (main) [   ] o.a.s.c.ZkContainer Zookeeper client=zookeeper:2181
+2025-04-22 13:45:22.119 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2025-04-22 13:45:22.127 INFO  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2025-04-22 13:45:22.129 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2025-04-22 13:45:25.232 WARN  (main) [   ] o.a.s.c.ZkController Contents of zookeeper /security.json are world-readable; consider setting up ACLs as described in https://solr.apache.org/guide/zookeeper-access-control.html
+2025-04-22 13:45:25.488 INFO  (main) [   ] o.a.s.c.ZkController Publish node=172.19.0.3:8983_solr as DOWN
+2025-04-22 13:45:25.490 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2025-04-22 13:45:25.508 INFO  (zkCallback-12-thread-1) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (0) -> (1)
+2025-04-22 13:45:25.586 INFO  (main) [   ] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/172.19.0.3:8983_solr
+2025-04-22 13:45:25.728 INFO  (zkCallback-12-thread-1) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (1) -> (2)
+2025-04-22 13:45:25.761 INFO  (main) [   ] o.a.s.c.ZkController non-data nodes now []
+2025-04-22 13:45:25.977 INFO  (main) [   ] o.a.s.p.PackageLoader /packages.json updated to version -1
+2025-04-22 13:45:26.069 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2025-04-22 13:45:28.348 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2025-04-22 13:45:29.087 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4bdeaabb
+2025-04-22 13:45:29.088 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4bdeaabb
+2025-04-22 13:45:29.090 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@4bdeaabb
+2025-04-22 13:45:29.238 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /var/solr/data
+2025-04-22 13:45:29.480 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@47da3952{/solr,file:///opt/solr-8.11.4/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-8.11.4/server/solr-webapp/webapp}
+2025-04-22 13:45:29.506 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@6eeade6c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2025-04-22 13:45:29.508 INFO  (main) [   ] o.e.j.s.Server Started @22138ms
+2025-04-22 13:45:30.885 INFO  (qtp1541697437-21) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/?null)
+2025-04-22 13:45:32.088 INFO  (qtp1541697437-16) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/cores?_=1745329531922&indexInfo=false&wt=json)
+2025-04-22 13:45:32.103 INFO  (qtp1541697437-20) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/info/system?_=1745329531922&wt=json)
+2025-04-22 13:45:32.189 INFO  (qtp1541697437-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1745329531922} status=0 QTime=101
+2025-04-22 13:45:32.267 INFO  (qtp1541697437-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1745329531922} status=0 QTime=164
+2025-04-22 13:45:32.304 INFO  (qtp1541697437-22) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/info/system?_=1742025-04-22 13:45:43.525 INFO  (qtp1341706533-15) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8984/solr/?null)
+2025-04-22 13:45:44.787 INFO  (qtp1341706533-22) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8984/solr/?null)
+2025-04-22 13:45:45.831 INFO  (qtp1341706533-24) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8984/solr/admin/cores?_=1745329545356&indexInfo=false&wt=json)
+2025-04-22 13:45:45.832 INFO  (qtp1341706533-22) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8984/solr/admin/info/system?_=1745329545356&wt=json)
+2025-04-22 13:45:45.940 INFO  (qtp1341706533-24) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2025-04-22 13:45:45.983 INFO  (qtp1341706533-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1745329545356} status=0 QTime=152
+2025-04-22 13:45:45.987 INFO  (qtp1341706533-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=17452025-04-22 13:46:28.431 INFO  (qtp1541697437-22) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://172.19.0.3:8983/solr/admin/metrics?null)
+2025-04-22 13:47:14.263 INFO  (JettyShutdownThread) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@6eeade6c{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2025-04-22 13:47:14.264 INFO  (JettyShutdownThread) [   ] o.e.j.s.session node0 Stopped scavenging
+2025-04-22 13:47:14.275 INFO  (JettyShutdownThread) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1495414981
+2025-04-22 13:47:14.278 INFO  (JettyShutdownThread) [   ] o.a.s.c.ZkController Remove node as live in ZooKeeper:/live_nodes/172.19.0.3:8983_solr
+2025-04-22 13:47:14.625 WARN  (main-SendThread(zookeeper:2181)) [   ] o.a.z.ClientCnxn Session 0x100000b0c770003 for sever zookeeper/172.19.0.2:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:74) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1275) ~[?:?]
+2025-04-22 13:47:14.729 WARN  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager Watcher org.apache.solr.common.cloud.ConnectionManager@1e47ee55 name: ZooKeeperConnection Watcher:zookeeper:2181 got event WatchedEvent state:Disconnected type:None path:null path: null type: None
+2025-04-22 13:47:16.228 INFO  (JettyShutdownThread) [   ] o.a.s.c.ZkController Publish this node as DOWN...
+2025-04-22 13:47:16.228 INFO  (JettyShutdownThread) [   ] o.a.s.c.ZkController Publish node=172.19.0.3:8983_solr as DOWN
+2025-04-22 13:47:16.251 INFO  (JettyShutdownThread) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2025-04-22 13:47:16.252 INFO  (JettyShutdownThread) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@20ab76ee: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@169a76f9
+2025-04-22 13:47:16.281 INFO  (JettyShutdownThread) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2025-04-22 13:47:16.283 INFO  (JettyShutdownThread) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@45900b64: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@4783bc65
+2025-04-22 13:47:16.291 INFO  (JettyShutdownThread) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2025-04-22 13:47:16.292 INFO  (JettyShutdownThread) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@f2a1813: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@483432e0
+2025-04-22 13:47:16.316 INFO  (JettyShutdownThread) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.cluster tag=null
+2025-04-22 13:47:19.125 ERROR (main-SendThread(zookeeper:2181)) [   ] o.a.z.c.StaticHostProvider Unable to resolve address: zookeeper:2181 => java.net.UnknownHostException: zookeeper: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.UnknownHostException: zookeeper: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) ~[?:?]
+2025-04-22 13:47:19.718 WARN  (main-SendThread(zookeeper:2181)) [   ] o.a.z.ClientCnxn An exception was thrown while closing send thread for session 0x100000b0c770003. => java.lang.IllegalArgumentException: Unable to canonicalize address zookeeper:2181 because it's not resolvable
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:78)
+java.lang.IllegalArgumentException: Unable to canonicalize address zookeeper:2181 because it's not resolvable
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:78) ~[?:?]
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:41) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1147) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1195) ~[?:?]
+2025-04-22 13:47:19.828 INFO  (JettyShutdownThread) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@47da3952{/solr,null,STOPPED}{/opt/solr-8.11.4/server/solr-webapp/webapp}
+04-22 13:47:19.125 ERROR (main-SendThread(zookeeper:2181)) [   ] o.a.z.c.StaticHostProvider Unable to resolve address: zookeeper:2181 => java.net.UnknownHostException: zookeeper: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.UnknownHostException: zookeeper: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) ~[?:?]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) ~[?:?]
+2025-04-22 13:47:19.678 WARN  (main-SendThread(zookeeper:2181)) [   ] o.a.z.ClientCnxn An exception was thrown while closing send thread for session 0x100000b0c770002. => java.lang.IllegalArgumentException: Unable to canonicalize address zookeeper:2181 because it's not resolvable
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:78)
+java.lang.IllegalArgumentException: Unable to canonicalize address zookeeper:2181 because it's not resolvable
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:78) ~[?:?]
+	at org.apache.zookeeper.SaslServerPrincipal.getServerPrincipal(SaslServerPrincipal.java:41) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1147) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1195) ~[?:?]
+2025-04-22 13:47:19.779 INFO  (JettyShutdownThread) [   ] o.a.s.c.Overseer Overseer (id=72057641491693570-172.19.0.4:8983_solr-n_0000000000) closing
+2025-04-22 13:47:19.803 INFO  (JettyShutdownThread) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@5b6813df{/solr,null,STOPPED}{/opt/solr-8.11.4/server/solr-webapp/webapp}

@@ -1,0 +1,78 @@
+/* Updated Header.css for additional gap, larger logo, and proper vertical centering */
+
+.hero-header {
+    height: 180px; /* Increased height for more space */
+    margin-bottom: 20px; /* Add gap below header to separate from search bar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Ensure vertical centering of content */
+    justify-content: center;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center; /* Center logo vertically next to text */
+    justify-content: flex-start; /* Logo on the left of the heading */
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .header-logo {
+    width: 100px; /* Increased logo size from 80px to 100px */
+    height: auto;
+    flex-shrink: 0;
+    align-self: center; /* Ensure logo centers within its container */
+  }
+  
+  .solr-header {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .logo-title {
+      gap: 15px;
+    }
+    
+    .header-logo {
+      width: 80px; /* Scale down on smaller screens */
+    }
+    
+    .solr-header {
+      font-size: 2rem;
+    }
+  }
+  

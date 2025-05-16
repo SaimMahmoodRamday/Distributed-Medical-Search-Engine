@@ -41,8 +41,8 @@ This project is built as a **distributed system** to ensure scalability, high av
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/medical-search-engine.git
-cd medical-search-engine
+git clone https://github.com/SaimMahmoodRamday/Distributed-Medical-Search-Engine.git
+cd Distributed-Medical-Search-Engine
 ```
 
 ---

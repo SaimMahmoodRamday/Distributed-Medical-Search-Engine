@@ -1,13 +1,13 @@
 # 🧠 Distributed Medical Search Engine
 
-This project is an AI-powered distributed search engine designed to help clinicians and researchers efficiently explore large-scale medical literature. It intelligently retrieves and summarizes/explains articles on generic level for non-professionals using advanced LLM capabilities, streamlining the information overload problem in healthcare research.
+This project is an AI-powered distributed search engine designed to help clinicians and researchers efficiently explore large-scale medical literature. It retrieves and summarizes/explains articles on generic level for non-professionals using LLM , streamlining the information overload problem in healthcare research. As it follows distributed architecture it is very time efficient.
 
 ---
 
 ## 📌 Features
 
 - 🔍 Fast and intelligent medical search engine with various custom filters
-- 🧠 Real-time abstractive summarization using Gemini LLM
+- 🧠 Real-time abstractive summarization/generic explanation using Gemini LLM
 - 🗃️ Distributed architecture with separate frontend and backend
 - ⚙️ Fault tolerance, replication, and sharding using Solr
 - 📉 Incorrect Query Handling , Retrieves the most relevant results
@@ -122,6 +122,8 @@ done
 ---
 
 ## 🧪 Run the Project
+
+Note: Solr should be running in the background in Docker.
 
 ### ✅ Start Frontend
 

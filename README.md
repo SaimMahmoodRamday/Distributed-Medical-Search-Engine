@@ -146,10 +146,10 @@ node index.js
 | Metric                 | Value               |
 |------------------------|---------------------|
 | Total Requests Sent    | 1000                |
-| ✅ Successful Requests |  770                |
-| ❌ Failed Requests     | 230                 |
+| ✅ Successful Requests |  950                |
+| ❌ Failed Requests     | 50                  |
 | 🕒 Avg. Response Time  | 13 ms               |
-| ⚡ Throughput           | 10.0 requests/sec   |
+| ⚡ Throughput           | 10.0 requests/sec  |
 
 ---
 
